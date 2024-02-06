@@ -6,3 +6,8 @@ h2 { font-family: Georgia, serif; color: #e5d715}
 h3 { font-family: "Times New Roman", serif; color: #c2b723}
 
 p { font-family: Helvetica; color: #FCAE1E; }
+
+A:visited, A:link{text-decoration: underline; color: skyblue;}
+A:active {background: #CBC3E3; text-decoration: overline; color: ghostwhite}
+A:hover {font-size: 18; font-weight: bold; 
+    text-decoration: underline; color: greenyellow;}
