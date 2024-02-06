@@ -1,7 +1,8 @@
-body { font-size: 12pt; font-family: Arial; background-color: #F9E4BC;
-    color: #CD853F; margin: 20px 20px;}
+body { font-size: 12pt; font-family: Arial; background-color: #702963;
+    color: #DD571C; margin: 20px 20px;}
     
-h2, h3 { font-family: Georgia,
-        "Times New Roman", serif; } 
-p { font-family: Helvetica;
-    color: #d0d2ff; }
+h1 { font-family: Palatino, serif;} 
+h2 { font-family: Georgia, serif;} 
+h3 { font-family: "Times New Roman", serif}
+
+p { font-family: Helvetica; color: #FCAE1E; }
