@@ -14,6 +14,13 @@ A:active {background: #CBC3E3; text-decoration: overline; color: ghostwhite}
 A:hover {font-size: 18pt; font-weight: bold; 
     text-decoration: underline; color: greenyellow;}
 
-table {border-collapse: collapse; width: 100%;}
+table {border-collapse: collapse;}
 
-div {font-family: Helvetica; color: #cdff50;}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #5D3FD3;
+  }
+
+div {font-family: Helvetica; color: #cdff50; background-color: #9d87f8}
