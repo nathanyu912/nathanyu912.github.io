@@ -21,6 +21,14 @@ th {
     padding-bottom: 12px;
     text-align: left;
     background-color: #5D3FD3;
+    padding: 8px;
+    border: 1px solid #faff00;
   }
 
-div {font-family: Helvetica; color: #cdff50; background-color: #9d87f8}
+
+
+.divleft {font-family: Helvetica; color: #cdff50; 
+    background-color: #8365fc}
+
+.divright {font-family: Arial; color: #cdff50; 
+    background-color: #9d87f8}
