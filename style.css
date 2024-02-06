@@ -24,7 +24,10 @@ th {
     padding: 8px;
     border: 1px solid #faff00;
   }
-
+tr {
+    padding: 8px;
+    border: 1px solid #faff00;
+}
 
 
 .divleft {font-family: Helvetica; color: #cdff50; 
