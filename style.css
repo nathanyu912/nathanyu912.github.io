@@ -13,3 +13,5 @@ A:visited, A:link{text-decoration: underline; color: skyblue;}
 A:active {background: #CBC3E3; text-decoration: overline; color: ghostwhite}
 A:hover {font-size: 18pt; font-weight: bold; 
     text-decoration: underline; color: greenyellow;}
+
+table {border-collapse: collapse; width: 100%;}
