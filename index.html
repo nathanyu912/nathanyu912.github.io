@@ -8,12 +8,33 @@
 
 <h1>Nathan Yu</h1> 
 
+<div onclick="showEnlargedImage()">
+  <img src="public_html/subdirectory/your-image.jpg" alt="Your Image">
+</div>
+
+<div onclick="hideEnlargedImage()">
+  <img src="public_html/subdirectory/your-image.jpg" alt="Your Image">
+</div>
+
+<script>
+function showEnlargedImage() {
+  document.querySelector('.enlarged-image').style.display = 'flex';
+}
+
+function hideEnlargedImage() {
+  document.querySelector('.enlarged-image').style.display = 'none';
+}
+</script>
+
 <nav>
-  <a href="/Education/">apple</a> 
-  <a href="/University Program/ ">mango</a>  
+  <a href="/About/">About</a> 
+  <a href="/Resume/ ">mango</a>  
   <a href="#Educational Awards/">orange</a>
   <a href="#cherry/">cherry</a>
 </nav>
+
+<button type="button">Click Me!</button>
+<button type="button" id="myButton">Click Me!</button>
 
 <h2> Education</h2><ol>
   <li><a href="https://stlh.ycdsb.ca">St. Theresa of Lisieux Catholic Highschool (2014-2018)</a></li>
