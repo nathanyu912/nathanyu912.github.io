@@ -38,7 +38,7 @@ tr {
         
 nav {background-color: #9d87f8}
 
-nav a:link {color: #03fe57;}
+nav a, a:visited, a:link {color: #03fe57;}
         
 nav a:hover {color: #fffdfd; } 
 
@@ -46,7 +46,7 @@ nav a:hover {color: #fffdfd; }
     position: relative;
     display: inline-block;
   }
-  
+
 .dropdown-content {
     display: none;
     position: absolute;
