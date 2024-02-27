@@ -10,21 +10,12 @@
 
 <script src="main.js"></script>
 
-<div class="image-container" onclick="showEnlargedImage()">
-  <img src="public_html/your-image.jpg" alt="Your Image">
-</div>
-
-<div class="enlarged-image" onclick="hideEnlargedImage()">
-  <span class="close-button">&times;</span>
+<div id= "main" onclick="showImage()">
   <img src="public_html/your-image.jpg" alt="Your Image">
 </div>
 
 <script>
-function showEnlargedImage() {
-  document.querySelector('.enlarged-image').style.display = 'flex';
-}
-
-function hideEnlargedImage() {
+function showImage() {
   document.querySelector('.enlarged-image').style.display = 'none';
 }
 </script>
@@ -32,8 +23,7 @@ function hideEnlargedImage() {
 <nav>
   <a href="/About.html">About</a> 
   <a href="/Resume.html ">Resume</a>  
-  <a href="#Educational Awards/">orange</a>
-  <a href="#cherry/">cherry</a>
+  <a href="#Nationalities/">Nationalities</a>
 </nav>
 
 <button type="button" id="myButton">Click Me!</button>

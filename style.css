@@ -36,27 +36,9 @@ tr {
 .divright {font-family: Arial; color: #cdff50;
     background-color: #9d87f8}
 
-.image-container {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.enlarged-image {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* semi-transparent background */
-    display: none;
-    justify-content: center;
-    align-items: center;
-}
-
 .enlarged-image img {
-    max-width: 80%; /* Adjust the maximum width as needed */
-    max-height: 80%; /* Adjust the maximum height as needed */
+    max-width: 150%; /* Adjust the maximum width as needed */
+    max-height: 150%; /* Adjust the maximum height as needed */
     border-radius: 5px;
 }
 
