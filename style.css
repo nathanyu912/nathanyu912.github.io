@@ -42,9 +42,11 @@ nav {
 
 }
 
-nav a, a:visited, a:link {color: #03fe57;}
+nav a, a:visited, a:link {font-size: 16px;
+    color: #03fe57;}
         
-nav a:hover {color: #fffdfd; } 
+nav a:hover {font-size: 22px;
+    color: #fffdfd; } 
 
 .dropdown {
     position: relative;
