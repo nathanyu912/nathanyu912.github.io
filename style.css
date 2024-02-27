@@ -36,7 +36,11 @@ tr {
 .divright {font-family: Arial; color: #cdff50;
     background-color: #9d87f8}
         
-nav {background-color: #9d87f8}
+nav {
+    background-color: #9d87f8;
+    padding: 16px;
+
+}
 
 nav a, a:visited, a:link {color: #03fe57;}
         
@@ -57,6 +61,7 @@ nav a:hover {color: #fffdfd; }
 }
 
 .dropdown-content a {
+    padding: 12px 16px;
     display: block;
     text-decoration: none;
 }
