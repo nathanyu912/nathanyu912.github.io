@@ -8,11 +8,14 @@
 
 <h1>Nathan Yu</h1> 
 
-<div onclick="showEnlargedImage()">
+<script src="main.js"></script>
+
+<div class="image-container" onclick="showEnlargedImage()">
   <img src="public_html/your-image.jpg" alt="Your Image">
 </div>
 
-<div onclick="hideEnlargedImage()">
+<div class="enlarged-image" onclick="hideEnlargedImage()">
+  <span class="close-button">&times;</span>
   <img src="public_html/your-image.jpg" alt="Your Image">
 </div>
 
@@ -27,13 +30,12 @@ function hideEnlargedImage() {
 </script>
 
 <nav>
-  <a href="/About/">About</a> 
-  <a href="/Resume/ ">Resume</a>  
+  <a href="/About.html">About</a> 
+  <a href="/Resume.html ">Resume</a>  
   <a href="#Educational Awards/">orange</a>
   <a href="#cherry/">cherry</a>
 </nav>
 
-<button type="button">Click Me!</button>
 <button type="button" id="myButton">Click Me!</button>
 
 <h2> Education</h2><ol>
