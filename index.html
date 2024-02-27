@@ -10,9 +10,6 @@
 
 <script src="main.js"></script> <!-- running javascript-->
 
-<!-- creates and enlarges image1-->
-<img id="myImage" src="/public_html/image1.jpg" alt="My Image" onclick= "enlargeImage()">
-
 <!-- creates dropdown menu-->
 <nav> 
   <a href="/About.html" onmouseover="highlightNavItem(this)" onmouseout="resetNavItem(this)">About</a> 
@@ -25,6 +22,9 @@
   </div>
   </div>
 </nav>
+
+<!-- creates and enlarges image1-->
+<img id="myImage" src="/public_html/image1.jpg" alt="My Image" onclick= "enlargeImage()">
 
 <button onclick="promptForName()">Enter Your Name</button>
 <p id="nameOutput"></p>
