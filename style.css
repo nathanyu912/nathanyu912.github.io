@@ -36,7 +36,9 @@ tr {
 .divright {font-family: Arial; color: #cdff50;
     background-color: #9d87f8}
         
-nav a { padding: 15px; display: block; font-size: 25pt; 
+nav {background-color: skyblue}
+
+nav a:link { padding: 15px; display: block; font-size: 25pt; 
     color: #03fe57;}
         
 nav a:hover {color: #fffdfd; } 
