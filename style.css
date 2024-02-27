@@ -42,12 +42,3 @@ tr {
     border-radius: 5px;
 }
 
-.close-button {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
-    color: white;
-    font-size: 24px;
-}
-    
