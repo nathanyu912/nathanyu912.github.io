@@ -1,7 +1,9 @@
-window.onload = function() {
-    var maindiv1 = document.getElementById("main");
-    maindiv1.style.backgroundColor = "green";
+function promptForName() {
+    var name = prompt("Please enter your name:");
+    if (name !== null && name !== "") {
+        document.getElementById("nameOutput").innerText = "Hello, " + name + "!";
     }
+}
 
 
 
