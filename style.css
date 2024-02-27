@@ -53,6 +53,7 @@ nav a:hover {color: #fffdfd; }
     background-color: #9d87f8;
     min-width: 160px;
     text-decoration: none;
+    z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
