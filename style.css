@@ -50,7 +50,7 @@ nav a:hover {color: #fffdfd; }
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #9d87f8;
+    background-color: #7a59ff;
     min-width: 160px;
     text-decoration: none;
     z-index: 1;
