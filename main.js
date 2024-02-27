@@ -7,8 +7,8 @@ function promptForName() {
 
 function enlargeImage() {
     var img = document.getElementById("myImage");
-    img.style.width = "300px"; // Change the width to enlarge the image
-    img.style.height = "300px";
+    img.style.width = "500px"; // Change the width to enlarge the image
+    img.style.height = "500px";
 }
 
 
