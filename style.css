@@ -42,6 +42,11 @@ nav a:link {color: #03fe57;}
         
 nav a:hover {color: #fffdfd; } 
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
 .dropdown-content {
     display: none;
     position: absolute;

@@ -15,7 +15,14 @@
 <nav>
   <a href="/About.html" onmouseover="highlightNavItem(this)" onmouseout="resetNavItem(this)">About</a> 
   <a href="/Resume.html" onmouseover="highlightNavItem(this)" onmouseout="resetNavItem(this)">Resume</a>  
-  <a href="#Nationalities/" onmouseover="highlightNavItem(this)" onmouseout="resetNavItem(this)">Nationalities</a>
+  
+  <div class = "dropdown">
+  <a href="#Languages/" onmouseover= "highlightNavItem(this)" onmouseout="resetNavItem(this)">Languages</a>
+  <div class="dropdown-content">
+    <a href="#">English</a> 
+    <a href="#">Cantonese</a> 
+  </div>
+  </div>
 </nav>
 
 <button onclick="promptForName()">Enter Your Name</button>

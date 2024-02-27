@@ -19,7 +19,7 @@ function resetNavItem(element) {
     element.style.backgroundColor = "transparent";
 }
 
-function displayDropdown(element) {
+function myDropdown(element) {
     var dropdownContent = element.getElementsByClassName("dropdown-content")[0];
     dropdownContent.style.display = "block";
 }
