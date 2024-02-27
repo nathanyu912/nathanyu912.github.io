@@ -19,3 +19,12 @@ function resetNavItem(element) {
     element.style.backgroundColor = "transparent";
 }
 
+function displayDropdown(element) {
+    var dropdownContent = element.getElementsByClassName("dropdown-content")[0];
+    dropdownContent.style.display = "block";
+}
+
+function hideDropdown(element) {
+    var dropdownContent = element.getElementsByClassName("dropdown-content")[0];
+    dropdownContent.style.display = "none";
+}
