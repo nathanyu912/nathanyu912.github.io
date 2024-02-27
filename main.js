@@ -11,4 +11,11 @@ function enlargeImage() {
     img.style.height = "500px";
 }
 
+function highlightNavItem(element) {
+    element.style.backgroundColor = "lightgray";
+}
+
+function resetNavItem(element) {
+    element.style.backgroundColor = "transparent";
+}
 
