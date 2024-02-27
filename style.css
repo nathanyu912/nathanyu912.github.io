@@ -36,9 +36,7 @@ tr {
 .divright {font-family: Arial; color: #cdff50;
     background-color: #9d87f8}
 
-.enlarged-image img {
-    max-width: 150%; /* Adjust the maximum width as needed */
-    max-height: 150%; /* Adjust the maximum height as needed */
-    border-radius: 5px;
+.enlarged-image {
+    width: 150%;
+    height: 150%;
 }
-
