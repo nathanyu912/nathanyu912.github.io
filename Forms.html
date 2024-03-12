@@ -10,32 +10,32 @@
     <h1>Feedback Form</h1>
     <form id="feedbackForm">
         <div class="form-group">
-            <fieldset>
-                <label for="fname">First name:</label>
+            <fieldset> <!-- gets first name and last name input-->
+                <label for="fname">First name:</label> 
                 <input type="text" id="fname" name="fname" required><br>
                 <label for="lname">Last name:</label>
                 <input type="text" id="lname" name="lname" required><br>
         </div>
-        <div class="form-group">
+        <div class="form-group"> <!-- gets email input-->
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
         </div>
-        <div class="form-group">
-            <label for="age">What is your age range?:</label>
+        <div class="form-group"> 
+            <label for="age">What is your age range?:</label> <!-- gets age-range input from dropdrown-->
             <select id="age" name="age">
-                <optgroup label="Under Mid-Thirties">
+                <optgroup label="Under Mid-Thirties"> <!-- labels age group-->
                     <option value="Under 18">Under 18</option>
                     <option value="18-24">18-24</option>
                     <option value="24-35">24-35</option>
                 </optgroup>
-                <optgroup label="Over Mid-Thirties">
+                <optgroup label="Over Mid-Thirties"> <!-- labels age group-->
                     <option value="36-55">36-55</option>
                     <option value="56+">56+</option>
                 </optgroup>
             </select> 
         </div>
         <div class="form-group">
-            <label for="gender">Gender:</label>
+            <label for="gender">Gender:</label> <!-- gets gender input from dropdrown-->
             <input type="radio" id="male" name="gender" value="male" required>
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender" value="female">
@@ -43,7 +43,7 @@
             <input type="radio" id="other" name="gender" value="other">
             <label for="other">Other</label>
         </div>
-        <div class="form-group">
+        <div class="form-group"> <!-- gets interest input from dropdrown-->
             <label for="interests">Interests:</label>
             <input type="checkbox" id="programming" name="interests" value="programming">
             <label for="programming">Programming</label>
@@ -52,8 +52,8 @@
             <input type="checkbox" id="writing" name="interests" value="writing">
             <label for="writing">Writing</label>
         </div>
-        <div class="form-group">
-            <label for="musicgenre">Choose your favourite music genre from this list:</label>
+        <div class="form-group"> 
+            <label for="musicgenre">Choose your favourite music genre from this list:</label> <!-- gets music genre input from datalist-->
             <input list="musicgenres" name="musicgenre" id="musicgenre">
             <datalist id="musicgenres">
                 <option value="Rock">
@@ -64,16 +64,16 @@
             </datalist>
         </div>
         <div class="form-group">
-            <label for="comments">Comments:</label>
+            <label for="comments">Comments:</label> <!-- gets comment input from textarea-->
             <textarea id="comments" name="comments"></textarea>
         </div>
         <div class="form-group">
-            <button type="submit" onclick= "alert('Information Submitted')">Submit</button>
-            <button type="button" onclick="clearForm()">Clear</button>
+            <button type="submit" onclick= "alert('Information Submitted')">Submit</button> 
+            <button type="button" onclick="clearForm()">Clear</button> <!-- runs javascript to clear form -->
         </div>
     </form>
 
-    <script src="form.js"></script>
+    <script src="form.js"></script> <!-- runs javascript file-->
 
 </body>
 </html>

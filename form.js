@@ -6,6 +6,7 @@ const form = document.getElementById('feedbackForm');
             form.reset();
         });
 
+        //function to store all data from form 
         function storeFormData() {
             const formData = {
                 fname: document.getElementById('fname').value,
@@ -21,6 +22,7 @@ const form = document.getElementById('feedbackForm');
             localStorage.setItem('formData', JSON.stringify(formData));
         }
 
+        //function to get all checked interests
         function getCheckedInterests() {
             const checkboxes = document.querySelectorAll('input[name="interests"]:checked');
             const interests = [];
@@ -30,6 +32,7 @@ const form = document.getElementById('feedbackForm');
             return interests;
         }
 
+        //function to clear form
         function clearForm() {
             form.reset();
             localStorage.removeItem('formData');
