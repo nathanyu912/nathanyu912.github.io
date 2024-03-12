@@ -53,6 +53,17 @@
             <label for="writing">Writing</label>
         </div>
         <div class="form-group">
+            <label for="musicgenre">Choose your favourite music genre from this list:</label>
+            <input list="musicgenres" name="musicgenre" id="musicgenre">
+            <datalist id="musicgenres">
+                <option value="Rock">
+                <option value="Hip-hop">
+                <option value="Classical">
+                <option value="Country">
+                <option value="None of the above">
+            </datalist>
+        </div>
+        <div class="form-group">
             <label for="comments">Comments:</label>
             <textarea id="comments" name="comments"></textarea>
         </div>
@@ -79,6 +90,7 @@
                 age: document.getElementById('age').value,
                 gender: document.querySelector('input[name="gender"]:checked').value,
                 interests: getCheckedInterests(),
+                musicgenre: document.getElementById('musicgenre').value,
                 comments: document.getElementById('comments').value
             };
 
